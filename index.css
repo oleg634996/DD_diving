@@ -23,6 +23,7 @@
     .title {
         text-align: center;
         font-size: 35px;
+        margin-bottom: 60px;
        
  
   font-weight: 600;
@@ -38,24 +39,27 @@
     .select{
         display: flex;
         justify-content: space-between
+        
     }
     select{
       width:130px;
       height: 25px;
       border-radius: 10px;
       margin-bottom: 20px;
+      text-align: center;
     }
-    input{
+    .input-dive{
        display: block;
        margin: 0 auto;
+       text-align: center;
         border-radius: 10px;
         width:130px;
       height: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
     }
     p{
         margin: 0;
-        margin-bottom: px;
+        margin-bottom: 20px;
         text-align: center;
         font-size: 30px;
         font-weight: bold;
@@ -63,6 +67,16 @@
         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
        
 
+    }
+    .rating{
+        display: flex;
+        justify-content: center;
+    }
+    .input-rating{
+        width: 30px;
+    }
+    .input-rating:not(:last-child){
+        margin-right: 10px;
     }
 }
 
